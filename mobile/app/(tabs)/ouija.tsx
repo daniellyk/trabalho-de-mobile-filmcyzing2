@@ -11,10 +11,10 @@ export default function HomeScreen() {
     return (
         <ParallaxScrollView
             headerImage={<Image
-                source={require('@/assets/images/ouija.jpeg')}
+                source={require('@/assets/images/ouija-movie-poster1.png')}
                 style={styles.reactLogo} />} headerBackgroundColor={{
-                    dark: '',
-                    light: ''
+                    dark: '#1D3D47',
+                    light: '#A1CEDC'
                 }}>
                    
             <ThemedView style={styles.titleContainer}>
@@ -53,10 +53,10 @@ const styles = StyleSheet.create({
         marginBottom: 8,
     },
     reactLogo: {
-        height: 200,
-        width: 300,
+        height: 250,
+        width: 390,
         bottom: 0,
-        left: 20,
+        left: 0,
         position: 'absolute',
     },
 });
