@@ -17,6 +17,7 @@ export default function HomeScreen() {
           source={require('@/assets/images/coraline.jpg')}
           style={styles.reactLogo}
         />
+        
       }>
       <ThemedView style={styles.titleContainer}>
         <ThemedText type="title">Coraline</ThemedText>
