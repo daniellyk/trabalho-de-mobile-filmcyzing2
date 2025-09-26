@@ -21,8 +21,6 @@ export default function HomeScreen() {
                     <ThemedView style={styles.titleContainer}>
                 <ThemedText type="title">Pixels</ThemedText>
             </ThemedView>
-
-
             <ThemedView style={styles.stepContainer}>
                 <ThemedText type="subtitle">Informações Gerais</ThemedText>
                 <ThemedText> Gênero: Ação, comédia e ficção científica.</ThemedText>
@@ -32,10 +30,8 @@ export default function HomeScreen() {
                 <ThemedText> Duração: 1h 45m. </ThemedText>
                 <ThemedText> Orçamento: US$ 88–129 milhões. </ThemedText>
                 <ThemedText> Distribuição: Sony Pictures </ThemedText>
-                <ThemedText>Disponível em: HBO, Google play e Apple TV+.</ThemedText>
+                <ThemedText> Disponível em: HBO, Google play e Apple TV+.</ThemedText>
                 <ThemedText /> <ThemedText>
-
-
                 </ThemedText>
             </ThemedView>
             <ThemedView style={styles.stepContainer}>
@@ -49,8 +45,6 @@ export default function HomeScreen() {
         </ParallaxScrollView>
     );
 }
-
-
 const styles = StyleSheet.create({
     titleContainer: {
         flexDirection: 'row',
