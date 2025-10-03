@@ -41,7 +41,6 @@ const styles = StyleSheet.create({
     backgroundColor: '#2D2828'
   },
   
-  
   headerText: {
     fontSize: 32, 
     fontWeight: 'bold',
