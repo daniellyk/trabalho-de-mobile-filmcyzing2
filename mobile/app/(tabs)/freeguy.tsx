@@ -26,9 +26,9 @@ export default function HomeScreen() {
                 <ThemedText> Orçamento: US$ 331,5 milhões </ThemedText>
                 <ThemedText> Distribuição:  20th Century Studios </ThemedText>
                 <ThemedText>Onde Assistir: Star+  Disney+</ThemedText>
-                <ThemedText />
-    
+                <ThemedText /> 
     </View>
+    
   );
 }
   

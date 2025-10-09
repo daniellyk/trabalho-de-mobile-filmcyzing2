@@ -5,45 +5,56 @@ import { ThemedView } from '@/components/themed-view';
 
 export default function HomeScreen() {
   return (
-        <View style={styles.container}>
-          <ThemedView style={styles.titleContainer}>
-            <ThemedText type="title"></ThemedText>
-          </ThemedView>
+    <View style={styles.container}>
+      <ThemedView style={styles.titleContainer}>
+        <ThemedText type="title"></ThemedText>
+      </ThemedView>
+  
+      <ThemedView style={styles.stepContainer}>
+        <ThemedText type="subtitle"></ThemedText>
+      </ThemedView>
+  
+      <ThemedText style={styles.headerText}>
+        Ouija: A Origem do Mal
+      </ThemedText>
+      <h1>Laura</h1>
     
-          <ThemedView style={styles.stepContainer}>
-            <ThemedText type="subtitle"></ThemedText>
-          </ThemedView>
+    </View>
+  );
+}
+  
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#2D2828', 
+  },
 
-        
-      
-        </View>
-      );
-    }
-    
-    const styles = StyleSheet.create({
-      container: {
-        flex: 1,
-        backgroundColor: '#2D2828', 
-      },
+  titleContainer: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 8,
+    backgroundColor: '#2D2828'
+  },
 
-      titleContainer: {
-        flexDirection: 'row',
-        alignItems: 'center',
-        gap: 8,
-        backgroundColor: '#2D2828'
-      },
-
-      stepContainer: {
-        gap: 8,
-        marginBottom: 8,
-        backgroundColor: '#2D2828'
-      },
-
-      reactLogo: {
-        height: 280,
-        width: 550,
-        bottom: 0,
-        left: 0,
-        position: 'absolute',
-      },
-    });
+  stepContainer: {
+    gap: 8,
+    marginBottom: 8,
+    backgroundColor: '#2D2828'
+  },
+  
+  headerText: {
+    fontSize: 32, 
+    fontWeight: 'bold',
+    color: '#8F00FF', 
+    textAlign: 'center', 
+    marginTop: 20, 
+  },
+  
+  reactLogo: {
+    height: 280,
+    width: 550,
+    bottom: 0,
+    left: 0,
+    position: 'absolute',
+  },
+});
