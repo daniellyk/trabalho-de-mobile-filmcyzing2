@@ -17,6 +17,16 @@ export default function HomeScreen() {
       <ThemedText style={styles.headerText}>
         FREE GUY
       </ThemedText>
+      <ThemedText type="subtitle">Informações Gerais</ThemedText>
+                <ThemedText> Lançamento:  19 de agosto de 2021 </ThemedText>
+                <ThemedText> Gênero: Comédia, Ficção Científica e Ação </ThemedText>
+                <ThemedText> diretor: Shawn Levy </ThemedText>
+                <ThemedText> Roteiro: Matt Lieberman e Zak Penn </ThemedText>
+                <ThemedText> Duração: 1 hora e 55 minutes </ThemedText>
+                <ThemedText> Orçamento: US$ 331,5 milhões </ThemedText>
+                <ThemedText> Distribuição:  20th Century Studios </ThemedText>
+                <ThemedText>Onde Assistir: Star+  Disney+</ThemedText>
+                <ThemedText />
     
     </View>
   );
@@ -25,7 +35,7 @@ export default function HomeScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#2D2828', 
+    backgroundColor: '#000000', 
   },
 
   titleContainer: {
