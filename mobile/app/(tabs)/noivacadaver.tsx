@@ -17,7 +17,14 @@ export default function HomeScreen() {
       <ThemedText style={styles.headerText}>
       Noiva Cadarver
       </ThemedText>
-    
+
+        <ThemedText>Informações Gerais:</ThemedText>
+      <ThemedText>Data de lançamento: 21 de outubro de 2005 (Brasil)</ThemedText>
+      <ThemedText>Diretores: Tim Burton, Mike Johnson</ThemedText>
+      <ThemedText>Autores: Tim Burton, Carlos Grangel</ThemedText>
+      <ThemedText>Gêneros: Animação, Romance, Drama, Ficção científica.</ThemedText>
+      <ThemedText>Roteiro: Caroline Thompson, John August, Pamela Pettler</ThemedText>
+      <ThemedText>Orçamento: 40 milhões USD </ThemedText>
     </View>
   );
 }
@@ -25,7 +32,7 @@ export default function HomeScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#2D2828', 
+    backgroundColor: '#000000', 
   },
 
   titleContainer: {
@@ -44,7 +51,7 @@ const styles = StyleSheet.create({
   headerText: {
     fontSize: 32, 
     fontWeight: 'bold',
-    color: '#772a53', 
+    color: '#1D1D3D', 
     textAlign: 'center', 
     marginTop: 20, 
   },
