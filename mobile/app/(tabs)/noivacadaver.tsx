@@ -1,4 +1,4 @@
-import { StyleSheet, View } from 'react-native';
+import { Image, StyleSheet, View } from 'react-native';
 
 import { ThemedText } from '@/components/themed-text';
 import { ThemedView } from '@/components/themed-view';
@@ -6,6 +6,10 @@ import { ThemedView } from '@/components/themed-view';
 export default function HomeScreen() {
   return (
     <View style={styles.container}>
+      <Image
+        style={styles.tinyLogo}
+        source={require('@/assets/images/Noivacadaver2.jpg')}
+      />
       <ThemedView style={styles.titleContainer}>
         <ThemedText type="title"></ThemedText>
       </ThemedView>
@@ -62,5 +66,9 @@ const styles = StyleSheet.create({
     bottom: 0,
     left: 0,
     position: 'absolute',
+  },
+  tinyLogo: {
+    width: 50,
+    height: 50,
   },
 });
