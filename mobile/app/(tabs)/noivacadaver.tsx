@@ -21,15 +21,19 @@ export default function HomeScreen() {
       <ThemedText style={styles.headerText}>
       Noiva Cadarver
       </ThemedText>
-
-        <ThemedText>Informações Gerais:</ThemedText>
-      <ThemedText>Data de lançamento: 21 de outubro de 2005 (Brasil)</ThemedText>
-      <ThemedText>Diretores: Tim Burton, Mike Johnson</ThemedText>
-      <ThemedText>Autores: Tim Burton, Carlos Grangel</ThemedText>
-      <ThemedText>Gêneros: Animação, Romance, Drama, Ficção científica.</ThemedText>
-      <ThemedText>Roteiro: Caroline Thompson, John August, Pamela Pettler</ThemedText>
-      <ThemedText>Orçamento: 40 milhões USD </ThemedText>
-    </View>
+       <ThemedText>                                        </ThemedText>
+      <center><ThemedText type="subtitle">Informações Gerais</ThemedText></center>
+              <ThemedText>Data de lançamento: 21 de outubro de 2005 (Brasil)</ThemedText>
+              <ThemedText>Diretores: Tim Burton, Mike Johnson</ThemedText>
+              <ThemedText>Autores: Tim Burton, Carlos Grangel</ThemedText>
+              <ThemedText>Gêneros: Animação, Romance, Drama, Ficção científica.</ThemedText>
+              <ThemedText>Roteiro: Caroline Thompson, John August, Pamela Pettler</ThemedText>
+              <ThemedText>Orçamento: 40 milhões USD </ThemedText>
+              
+              <ThemedText>                                        </ThemedText>
+                <center><ThemedText type="subtitle">Sinopse</ThemedText></center>
+                <ThemedText> As famílias de Victor e Victoria estão arranjando seu casamento. Nervoso com a cerimônia, Victor vai sozinho à floresta para ensaiar seus votos. No entanto, o que ele pensava ser um tronco de árvore na verdade é o braço esquelético de Emily, uma noiva que foi assassinada depois de fugir com seu amor. Convencida que Victor acabara de lhe pedir a mão em casamento, Emily o leva para o mundo dos mortos, mas ele precisa retornar rapidamente antes que Victoria se case com o malvado Lorde Barkis.</ThemedText>
+               </View>
   );
 }
   
