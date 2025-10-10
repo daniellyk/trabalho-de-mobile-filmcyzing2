@@ -1,4 +1,4 @@
-import { Image, StyleSheet, View } from 'react-native'; // Importando Image
+import { Image, StyleSheet, View } from 'react-native';
 
 import { ThemedText } from '@/components/themed-text';
 import { ThemedView } from '@/components/themed-view';
