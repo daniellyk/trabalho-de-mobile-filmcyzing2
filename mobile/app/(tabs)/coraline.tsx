@@ -31,8 +31,8 @@ export default function HomeScreen() {
       <ThemedText> Gêneros: Animação e terror. </ThemedText>
       <ThemedText> Roteiro: Henry Selick.</ThemedText>
       <ThemedText> Duração: 1h 40m.</ThemedText>
-      <ThemedText> Orçamento: 60 milhões USD.</ThemedText>
-      <ThemedText />
+      <ThemedText>  Orçamento: 60 milhões USD</ThemedText>
+      <ThemedText/>
       <center> <ThemedText type="subtitle">Sinopse</ThemedText></center>
       <ThemedText> Coraline descobre uma porta para um mundo alternativo onde tudo parece perfeito, pais afetuosos e desejos realizados. Porém todos têm botões nos olhos, e logo percebe que essa realidade paralela esconde intenções sombrias para mantê-la presa.
       A mensagem principal de Coraline é que um mundo aparentemente perfeito, mas artificial, é inferior à complexidade da vida real, que, apesar de suas imperfeições e frustrações, é o lar de verdadeiras relações familiares e felicidade, que podem ser perdidas ao desejar algo que não se tem.</ThemedText>
