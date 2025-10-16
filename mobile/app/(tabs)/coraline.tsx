@@ -1,49 +1,84 @@
-import { StyleSheet, View } from 'react-native';
+import { Image, StyleSheet, View } from 'react-native';
 
 import { ThemedText } from '@/components/themed-text';
 import { ThemedView } from '@/components/themed-view';
 
 export default function HomeScreen() {
   return (
-        <View style={styles.container}>
-          <ThemedView style={styles.titleContainer}>
-            <ThemedText type="title"></ThemedText>
-          </ThemedView>
-    
-          <ThemedView style={styles.stepContainer}>
-            <ThemedText type="subtitle"></ThemedText>
-          </ThemedView>
+    <View style={styles.container}>
 
-        
+      <Image
+        style={styles.tinyLogo}
+        source={require('@/assets/images/hq720.jpg')}
+      />
+    
+      <ThemedView style={styles.titleContainer}>
+        <ThemedText type="title"></ThemedText>
+      </ThemedView>
+
+      <ThemedView style={styles.stepContainer}>
+        <ThemedText type="subtitle"></ThemedText>
+      </ThemedView>
+
+      <ThemedText type='title' style={styles.headerText}>
+        Coraline
+      </ThemedText>
+
+      <center> <ThemedText type="subtitle">Informações Gerais:</ThemedText></center>
+      <ThemedText> Lançamento:  13 de fevereiro de 2009 (Brasil). </ThemedText>
+      <ThemedText> Diretor: Henry Selick. </ThemedText>
+      <ThemedText> Autor: Neil Gaiman. </ThemedText>
+      <ThemedText> Gêneros: Animação e terror. </ThemedText>
+      <ThemedText> Roteiro: Henry Selick.</ThemedText>
+      <ThemedText> Duração: 1h 40m.</ThemedText>
+      <ThemedText>  Orçamento: 60 milhões USD</ThemedText>
+      <ThemedText/>
+      <center> <ThemedText type="subtitle">Sinopse</ThemedText></center>
+      <ThemedText> Coraline descobre uma porta para um mundo alternativo onde tudo parece perfeito, pais afetuosos e desejos realizados. Porém todos têm botões nos olhos, e logo percebe que essa realidade paralela esconde intenções sombrias para mantê-la presa.
+      A mensagem principal de Coraline é que um mundo aparentemente perfeito, mas artificial, é inferior à complexidade da vida real, que, apesar de suas imperfeições e frustrações, é o lar de verdadeiras relações familiares e felicidade, que podem ser perdidas ao desejar algo que não se tem.</ThemedText>
       
-        </View>
-      );
-    }
-    
-    const styles = StyleSheet.create({
-      container: {
-        flex: 1,
-        backgroundColor: '#2D2828', 
-      },
+    </View>
 
-      titleContainer: {
-        flexDirection: 'row',
-        alignItems: 'center',
-        gap: 8,
-        backgroundColor: '#2D2828'
-      },
+  );
+}
 
-      stepContainer: {
-        gap: 8,
-        marginBottom: 8,
-        backgroundColor: '#2D2828'
-      },
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#000000',
+  },
 
-      reactLogo: {
-        height: 280,
-        width: 550,
-        bottom: 0,
-        left: 0,
-        position: 'absolute',
-      },
-    });
+  titleContainer: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 8,
+    backgroundColor: '#2D2828'
+  },
+
+  stepContainer: {
+    gap: 8,
+    marginBottom: 8,
+    backgroundColor: '#2D2828'
+  },
+
+  headerText: {
+    fontSize: 32,
+    fontWeight: 'bold',
+    color: '#800000',
+    textAlign: 'center',
+    marginTop: 20,
+  },
+
+  reactLogo: {
+    height: 280,
+    width: 550,
+    bottom: 0,
+    left: 0,
+    position: 'absolute',
+
+  },
+  tinyLogo: {
+    width: 50,
+    height: 50,
+  },
+});

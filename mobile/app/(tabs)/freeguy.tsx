@@ -83,7 +83,7 @@ const styles = StyleSheet.create({
   },
 
   tinyLogo:{
-    width:300,
+    width: 400,
     height: 200
   }
 
