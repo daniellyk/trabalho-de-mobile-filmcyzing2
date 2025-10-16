@@ -6,10 +6,27 @@ import { ScrollView } from 'react-native';
 
 export default function HomeScreen() {
   return (
+<<<<<<< HEAD
+    <View style={styles.container}>
+      <Image
+        style={styles.tinyLogo}
+        source={require('@/assets/images/Chris.jpg')}
+      />
+
+      <ThemedView style={styles.titleContainer}>
+        <ThemedText type="title"></ThemedText>
+      </ThemedView>
+
+      <ThemedView style={styles.stepContainer}>
+        <ThemedText type="subtitle"></ThemedText>
+      </ThemedView>
+
+=======
     
     <ScrollView style={styles.container}>
       
       
+>>>>>>> e41a02e6f53e9260cf6fc2c0021f041e5cf47841
       <ThemedText style={styles.headerText}>
         FREE GUY
       </ThemedText>
