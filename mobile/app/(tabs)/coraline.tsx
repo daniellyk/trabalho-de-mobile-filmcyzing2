@@ -9,7 +9,7 @@ export default function HomeScreen() {
 
       <Image
         style={styles.tinyLogo}
-        source={require('@/assets/images/hq720.jpg')}
+        source={require('@/assets/images/coraline.jpg')}
       />
     
       <ThemedView style={styles.titleContainer}>
@@ -21,19 +21,22 @@ export default function HomeScreen() {
       </ThemedView>
 
       <ThemedText type='title' style={styles.headerText}>
-        Coraline
+        CORALINE
       </ThemedText>
-
+      <ThemedText>                                                     </ThemedText>
       <center> <ThemedText type="subtitle">Informações Gerais:</ThemedText></center>
+      <ThemedText>                                                     </ThemedText>
       <ThemedText> Lançamento:  13 de fevereiro de 2009 (Brasil). </ThemedText>
       <ThemedText> Diretor: Henry Selick. </ThemedText>
       <ThemedText> Autor: Neil Gaiman. </ThemedText>
       <ThemedText> Gêneros: Animação e terror. </ThemedText>
       <ThemedText> Roteiro: Henry Selick.</ThemedText>
       <ThemedText> Duração: 1h 40m.</ThemedText>
-      <ThemedText>  Orçamento: 60 milhões USD</ThemedText>
+      <ThemedText> Orçamento: 60 milhões USD.</ThemedText>
       <ThemedText/>
-      <center> <ThemedText type="subtitle">Sinopse</ThemedText></center>
+      <ThemedText>                                                      </ThemedText>
+      <center> <ThemedText type="subtitle">Sinopse:</ThemedText></center>
+      <ThemedText>                                                      </ThemedText>
       <ThemedText> Coraline descobre uma porta para um mundo alternativo onde tudo parece perfeito, pais afetuosos e desejos realizados. Porém todos têm botões nos olhos, e logo percebe que essa realidade paralela esconde intenções sombrias para mantê-la presa.
       A mensagem principal de Coraline é que um mundo aparentemente perfeito, mas artificial, é inferior à complexidade da vida real, que, apesar de suas imperfeições e frustrações, é o lar de verdadeiras relações familiares e felicidade, que podem ser perdidas ao desejar algo que não se tem.</ThemedText>
       
@@ -64,7 +67,7 @@ const styles = StyleSheet.create({
   headerText: {
     fontSize: 32,
     fontWeight: 'bold',
-    color: '#800000',
+    color: '#483466',
     textAlign: 'center',
     marginTop: 20,
   },
@@ -78,7 +81,7 @@ const styles = StyleSheet.create({
 
   },
   tinyLogo: {
-    width: 50,
-    height: 50,
+    width: 420,
+    height: 210,
   },
 });
