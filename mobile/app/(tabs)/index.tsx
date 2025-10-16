@@ -44,6 +44,10 @@ export default function HomeScreen() {
             style={styles.gridImage}
             source={require('@/assets/images/Noivacadaver2.jpg')}
           />
+          <Image
+        style={styles.imagePair}
+        source={require('@/assets/images/coraline.jpg')}
+      />
 
           <View style={styles.gridImage} /> 
         </View>
@@ -84,12 +88,12 @@ const styles = StyleSheet.create({
   imagePair: {
     flexDirection: 'row', 
     justifyContent: 'space-between',
-    marginBottom: 10, 
+    marginBottom: 15, 
   },
 
   gridImage: {
 
-    width: '48%', 
+    width: '50%',
     height: 150, 
     borderRadius: 8,
 
