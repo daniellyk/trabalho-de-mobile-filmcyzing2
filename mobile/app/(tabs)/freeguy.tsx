@@ -2,28 +2,27 @@ import { Image, StyleSheet, View } from 'react-native';
 
 import { ThemedText } from '@/components/themed-text';
 import { ThemedView } from '@/components/themed-view';
-import { ScrollView } from 'react-native'; // Importar ScrollView para permitir rolagem se o conteúdo for grande
+import { ScrollView } from 'react-native';
 
 export default function HomeScreen() {
   return (
-    // Envolver tudo em ScrollView para garantir que o conteúdo seja rolável se for maior que a tela
+    
     <ScrollView style={styles.container}>
       
-      {/* Título Principal */}
+      
       <ThemedText style={styles.headerText}>
         FREE GUY
       </ThemedText>
 
-      {/* Contêiner para a Imagem e as Informações Gerais - Disposição lado a lado (row) */}
+    
       <View style={styles.infoRowContainer}>
         
-        {/* Imagem (Pôster) */}
+      
         <Image
           style={styles.posterImage}
           source={require('@/assets/images/Chris.jpg')}
         />
 
-        {/* Informações Gerais */}
         <View style={styles.generalInfoContainer}>
           <ThemedText type="subtitle" style={styles.subtitleCentered}>
             Informações Gerais
@@ -39,7 +38,7 @@ export default function HomeScreen() {
         </View>
       </View>
 
-      {/* Sinopse */}
+
       <View style={styles.synopsisContainer}>
         <ThemedText type="subtitle" style={styles.subtitleCentered}>
           Sinopse
@@ -50,7 +49,7 @@ O filme se torna uma corrida contra o tempo, onde Guy precisa se tornar o herói
         </ThemedText>
       </View>
 
-      {/* Elementos originais não utilizados, mas mantidos os estilos de contêineres vazios */}
+  
       <ThemedView style={styles.titleContainer}>
         <ThemedText type="title"></ThemedText>
       </ThemedView>
@@ -66,7 +65,7 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#000000',
-    padding: 10, // Adicionar padding para evitar que o conteúdo toque as bordas
+    padding: 10, 
   },
 
   headerText: {
@@ -78,23 +77,22 @@ const styles = StyleSheet.create({
     marginBottom: 20,
   },
 
-  // Novo contêiner para dispor a imagem e as informações lado a lado
   infoRowContainer: {
     flexDirection: 'row',
-    alignItems: 'flex-start', // Alinha os itens ao topo
+    alignItems: 'flex-start', 
     marginBottom: 20,
-    gap: 10, // Espaçamento entre a imagem e o texto
+    gap: 10, 
   },
 
   posterImage: {
-    width: 150, // Tamanho menor e fixo para caber ao lado do texto
-    height: 225, // Proporção de pôster 2:3 (aproximadamente)
+    width: 150, 
+    height: 225, 
     resizeMode: 'cover',
     borderRadius: 8,
   },
 
   generalInfoContainer: {
-    flex: 1, // Permite que este contêiner ocupe o espaço restante
+    flex: 1,
     paddingLeft: 5,
   },
 
@@ -103,12 +101,12 @@ const styles = StyleSheet.create({
     marginBottom: 8,
     fontSize: 18,
     fontWeight: 'bold',
-    color: '#FFFFFF', // Cor clara para o subtítulo
+    color: '#FFFFFF', 
   },
 
   infoText: {
     fontSize: 14,
-    color: '#CCCCCC', // Cor clara para as informações
+    color: '#CCCCCC', 
     marginBottom: 2,
   },
 
@@ -124,19 +122,19 @@ const styles = StyleSheet.create({
     paddingHorizontal: 5,
   },
 
-  // Estilos originais (ajustados para serem menos conflitantes se necessário)
+  
   titleContainer: {
     flexDirection: 'row',
     alignItems: 'center',
     gap: 8,
-    backgroundColor: '#000000', // Mudei para evitar cor de fundo desnecessária
+    backgroundColor: '#000000', 
   },
 
   stepContainer: {
     gap: 8,
     marginBottom: 8,
-    backgroundColor: '#000000', // Mudei para evitar cor de fundo desnecessária
+    backgroundColor: '#000000', 
   },
 
-  // Removido o estilo 'tinyLogo' e 'reactLogo' pois foram substituídos/não utilizados
+
 });
