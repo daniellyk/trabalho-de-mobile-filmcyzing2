@@ -15,12 +15,12 @@ export default function HomeScreen() {
       <ThemedView style={styles.titleContainer}>
         <ThemedText type="title"></ThemedText>
       </ThemedView>
-
+  
       <ThemedView style={styles.stepContainer}>
         <ThemedText type="subtitle"></ThemedText>
       </ThemedView>
-
-      <ThemedText type='title' style={styles.headerText}>
+  
+      <ThemedText style={styles.headerText}>
         O Gabinete do Dr. Caligari
       </ThemedText>
 
@@ -42,7 +42,7 @@ export default function HomeScreen() {
 
   );
 }
-
+  
 const styles = StyleSheet.create({
   container: {
     flex: 1,
@@ -61,15 +61,15 @@ const styles = StyleSheet.create({
     marginBottom: 8,
     backgroundColor: '#2D2828'
   },
-
+  
   headerText: {
     fontSize: 32,
     fontWeight: 'bold',
-    color: '#800000',
-    textAlign: 'center',
-    marginTop: 20,
+    color: '#800000', 
+    textAlign: 'center', 
+    marginTop: 20, 
   },
-
+  
   reactLogo: {
     height: 280,
     width: 550,
