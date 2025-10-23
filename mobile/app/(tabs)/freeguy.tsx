@@ -1,37 +1,14 @@
-import { Image, StyleSheet, View } from 'react-native';
+import { ScrollView, StyleSheet } from 'react-native';
 
 import { ThemedText } from '@/components/themed-text';
-import { ThemedView } from '@/components/themed-view';
 
 export default function HomeScreen() {
   return (
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 24da5896d7ddc100f89ca90355956fc3d28a4e4f
+
     
     <ScrollView style={styles.container}>
       
       
-<<<<<<< HEAD
-=======
-=======
-    <View style={styles.container}>
-      <Image
-        style={styles.tinyLogo}
-        source={require('@/assets/images/Chris.jpg')}
-      />
-
-      <ThemedView style={styles.titleContainer}>
-        <ThemedText type="title"></ThemedText>
-      </ThemedView>
-
-      <ThemedView style={styles.stepContainer}>
-        <ThemedText type="subtitle"></ThemedText>
-      </ThemedView>
-
->>>>>>> 23341b3c1fbe5dcf1b160b95a7d9c1a8f022e802
->>>>>>> 24da5896d7ddc100f89ca90355956fc3d28a4e4f
       <ThemedText style={styles.headerText}>
         FREE GUY
       </ThemedText>
@@ -46,7 +23,7 @@ export default function HomeScreen() {
       <ThemedText> Orçamento: US$ 331,5 milhões </ThemedText>
       <ThemedText> Distribuição:  20th Century Studios </ThemedText>
       <ThemedText>Onde Assistir: Star+  Disney+</ThemedText>
-      <ThemedText />
+
       <ThemedText>
         <center><ThemedText type="subtitle">Sinopse</ThemedText></center>
         {`Um caixa de banco preso a uma entediante rotina tem sua vida virada de cabeça para baixo quando descobre que é um personagem em um jogo interativo. Ele precisa aceitar sua realidade e lidar com o fato de que é o único que pode salvar o mundo.
@@ -54,7 +31,7 @@ O filme se torna uma corrida contra o tempo, onde Guy precisa se tornar o herói
 `}
       </ThemedText>
 
-    </View>
+    </ScrollView>
 
   );
 }
