@@ -4,28 +4,11 @@ import { ThemedText } from '@/components/themed-text';
 
 export default function HomeScreen() {
   return (
-<<<<<<< HEAD
-    <View style={styles.container}>
-      <Image
-        style={styles.tinyLogo}
-        source={require('@/assets/images/Chris.jpg')}
-      />
-
-      <ThemedView style={styles.titleContainer}>
-        <ThemedText type="title"></ThemedText>
-      </ThemedView>
-
-      <ThemedView style={styles.stepContainer}>
-        <ThemedText type="subtitle"></ThemedText>
-      </ThemedView>
-
-=======
 
     
     <ScrollView style={styles.container}>
       
       
->>>>>>> 2177d701da93b67ceb0dcddf7bf024b7c5f5e347
       <ThemedText style={styles.headerText}>
         FREE GUY
       </ThemedText>
