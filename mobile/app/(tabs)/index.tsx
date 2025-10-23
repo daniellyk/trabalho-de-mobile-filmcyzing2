@@ -1,11 +1,11 @@
-import { Image, StyleSheet, View } from 'react-native';
+import { Image, ScrollView, StyleSheet, View } from 'react-native';
 
 import { ThemedText } from '@/components/themed-text';
 import { ThemedView } from '@/components/themed-view';
 
 export default function HomeScreen() {
   return (
-    <View style={styles.container}>
+    <ScrollView style={styles.container}>
 
     
       <ThemedView style={styles.titleContainer}>
@@ -26,10 +26,10 @@ export default function HomeScreen() {
 
 
         <View style={styles.imagePair}>
-          <Image
-            style={styles.gridImage}
-            source={require('@/assets/images/Miguel.webp')}
-          />
+        <Image
+        style={styles.imagePair}
+        source={require('@/assets/images/miguel.jpg')}
+      />
           <Image
             style={styles.gridImage}
             source={require('@/assets/images/Chris.jpg')}
@@ -65,30 +65,20 @@ export default function HomeScreen() {
       </View>
 
       <View style={{ height: 50 }} />
-
-    </View>
+      
+    </ScrollView>
   );
 }
+
+
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '000000',
   },
-
-  titleContainer: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    gap: 8,
-    backgroundColor: '000000'
-  },
-
-  stepContainer: {
-    gap: 8,
-    marginBottom: 8,
-    backgroundColor: '000000'
-  },
-
+  titleContainer:{},
+  stepContainer:{},
   headerText: {
     fontSize: 32,
     fontWeight: 'bold',
@@ -117,6 +107,16 @@ const styles = StyleSheet.create({
     height: 150,
     borderRadius: 8,
 
+
+  },
+
+  tinyLogo: {
+    height: 100,
+    width: 100,
+  },
+  tinylogo: {
+    width: 100,
+    height: 100,
   },
   },
 );
