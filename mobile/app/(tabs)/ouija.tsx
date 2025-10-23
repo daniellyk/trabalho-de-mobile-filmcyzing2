@@ -20,7 +20,7 @@ export default function HomeScreen() {
       
         <Image
           style={styles.posterImage}
-          source={require('@/assets/images/ouija-movie-poster1.png')}
+          source={require('@/assets/images/ouijaorigem.jpeg')}
         />
 
         <View style={styles.generalInfoContainer}>

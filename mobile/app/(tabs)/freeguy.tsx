@@ -1,10 +1,10 @@
-import { Image, StyleSheet, View } from 'react-native';
+import { ScrollView, StyleSheet } from 'react-native';
 
 import { ThemedText } from '@/components/themed-text';
-import { ThemedView } from '@/components/themed-view';
 
 export default function HomeScreen() {
   return (
+<<<<<<< HEAD
     <View style={styles.container}>
       <Image
         style={styles.tinyLogo}
@@ -19,6 +19,13 @@ export default function HomeScreen() {
         <ThemedText type="subtitle"></ThemedText>
       </ThemedView>
 
+=======
+
+    
+    <ScrollView style={styles.container}>
+      
+      
+>>>>>>> 2177d701da93b67ceb0dcddf7bf024b7c5f5e347
       <ThemedText style={styles.headerText}>
         FREE GUY
       </ThemedText>
@@ -33,7 +40,7 @@ export default function HomeScreen() {
       <ThemedText> Orçamento: US$ 331,5 milhões </ThemedText>
       <ThemedText> Distribuição:  20th Century Studios </ThemedText>
       <ThemedText>Onde Assistir: Star+  Disney+</ThemedText>
-      <ThemedText />
+
       <ThemedText>
         <center><ThemedText type="subtitle">Sinopse</ThemedText></center>
         {`Um caixa de banco preso a uma entediante rotina tem sua vida virada de cabeça para baixo quando descobre que é um personagem em um jogo interativo. Ele precisa aceitar sua realidade e lidar com o fato de que é o único que pode salvar o mundo.
@@ -41,7 +48,7 @@ O filme se torna uma corrida contra o tempo, onde Guy precisa se tornar o herói
 `}
       </ThemedText>
 
-    </View>
+    </ScrollView>
 
   );
 }
