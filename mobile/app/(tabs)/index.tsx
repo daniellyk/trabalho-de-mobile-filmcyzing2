@@ -18,7 +18,7 @@ export default function HomeScreen() {
         <View style={styles.imagePair}>
           <Image
             style={styles.gridImage}
-            source={require('@/assets/images/Miguel.webp')}
+            source={require('@/assets/images/miguel.jpg')}
           />
           <Image
             style={styles.gridImage}
