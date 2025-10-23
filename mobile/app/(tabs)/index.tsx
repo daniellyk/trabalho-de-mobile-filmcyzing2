@@ -13,13 +13,13 @@ export default function HomeScreen() {
       </ThemedText>
 
       <View style={styles.gridContainer}>
-        
+
 
         <View style={styles.imagePair}>
-          <Image
-            style={styles.gridImage}
-            source={require('@/assets/images/Miguel.webp')}
-          />
+        <Image
+        style={styles.imagePair}
+        source={require('@/assets/images/miguel.jpg')}
+      />
           <Image
             style={styles.gridImage}
             source={require('@/assets/images/Chris.jpg')}
@@ -27,7 +27,7 @@ export default function HomeScreen() {
         </View>
 
 
-                <View style={styles.imagePair}>
+        <View style={styles.imagePair}>
           <Image
             style={styles.gridImage}
             source={require('@/assets/images/ouijaorigem.jpeg')}
@@ -45,17 +45,17 @@ export default function HomeScreen() {
             source={require('@/assets/images/Noivacadaver2.jpg')}
           />
           <Image
-        style={styles.imagePair}
-        source={require('@/assets/images/coraline.jpg')}
-      />
+            style={styles.imagePair}
+            source={require('@/assets/images/coraline.jpg')}
+          />
 
-          <View style={styles.gridImage} /> 
+          <View style={styles.gridImage} />
         </View>
 
       </View>
 
       <View style={{ height: 50 }} />
-      
+
     </ScrollView>
   );
 }
@@ -68,7 +68,7 @@ const styles = StyleSheet.create({
     backgroundColor: '#000000',
   },
 
-  
+
   headerText: {
     fontSize: 32,
     fontWeight: 'bold',
@@ -77,7 +77,7 @@ const styles = StyleSheet.create({
     marginTop: 20,
     marginBottom: 20,
   },
-  
+
 
   gridContainer: {
     paddingHorizontal: 10,
@@ -86,15 +86,15 @@ const styles = StyleSheet.create({
 
 
   imagePair: {
-    flexDirection: 'row', 
+    flexDirection: 'row',
     justifyContent: 'space-between',
-    marginBottom: 15, 
+    marginBottom: 15,
   },
 
   gridImage: {
 
     width: '50%',
-    height: 150, 
+    height: 150,
     borderRadius: 8,
 
   },
