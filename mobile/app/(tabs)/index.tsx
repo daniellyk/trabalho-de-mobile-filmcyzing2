@@ -22,56 +22,9 @@ export default function HomeScreen() {
 
       </ThemedText>
 
-<<<<<<< HEAD
-      <View style={styles.gridContainer}>
-
-
-        <View style={styles.imagePair}>
-        <Image
-        style={styles.imagePair}
-        source={require('@/assets/images/miguel.jpg')}
-      />
-          <Image
-            style={styles.gridImage}
-            source={require('@/assets/images/Chris.jpg')}
-          />
-        </View>
-
-
-        <View style={styles.imagePair}>
-          <Image
-            style={styles.gridImage}
-            source={require('@/assets/images/ouijaorigem.jpeg')}
-          />
-          <Image
-            style={styles.gridImage}
-            source={require('@/assets/images/hq720.jpg')}
-          />
-        </View>
-
-
-        <View style={styles.imagePair}>
-          <Image
-            style={styles.gridImage}
-            source={require('@/assets/images/Noivacadaver2.jpg')}
-          />
-          <Image
-            style={styles.imagePair}
-            source={require('@/assets/images/coraline.jpg')}
-          />
-
-          <View style={styles.gridImage} />
-        </View>
-
-      </View>
-
-      <View style={{ height: 50 }} />
-
-    </ScrollView>
-=======
       <Image
         style={styles.tinyLogo}
-        source={require('@/assets/images/Miguel.webp')}
+        source={require('@/assets/images/miguel.jpg')}
       />
        <Image
         style={styles.tinyLogo}
@@ -98,7 +51,6 @@ export default function HomeScreen() {
       <center> <ThemedText type="subtitle"></ThemedText></center>
       <ThemedText> </ThemedText>
     </View>
->>>>>>> 23341b3c1fbe5dcf1b160b95a7d9c1a8f022e802
   );
 }
 
@@ -121,40 +73,12 @@ const styles = StyleSheet.create({
     backgroundColor: '000000'
   },
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 23341b3c1fbe5dcf1b160b95a7d9c1a8f022e802
   headerText: {
     fontSize: 32,
     fontWeight: 'bold',
     color: '#FFFFFF',
     textAlign: 'center',
     marginTop: 20,
-<<<<<<< HEAD
-    marginBottom: 20,
-  },
-
-
-  gridContainer: {
-    paddingHorizontal: 10,
-
-  },
-
-
-  imagePair: {
-    flexDirection: 'row',
-    justifyContent: 'space-between',
-    marginBottom: 15,
-  },
-
-  gridImage: {
-
-    width: '50%',
-    height: 150,
-    borderRadius: 8,
-
-=======
   },
 
   tinyLogo: {
@@ -164,7 +88,6 @@ const styles = StyleSheet.create({
   tinylogo: {
     width: 100,
     height: 100,
->>>>>>> 23341b3c1fbe5dcf1b160b95a7d9c1a8f022e802
   },
   },
 );

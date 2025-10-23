@@ -5,12 +5,6 @@ import { ThemedView } from '@/components/themed-view';
 
 export default function HomeScreen() {
   return (
-<<<<<<< HEAD
-    
-    <ScrollView style={styles.container}>
-      
-      
-=======
     <View style={styles.container}>
       <Image
         style={styles.tinyLogo}
@@ -25,7 +19,6 @@ export default function HomeScreen() {
         <ThemedText type="subtitle"></ThemedText>
       </ThemedView>
 
->>>>>>> 23341b3c1fbe5dcf1b160b95a7d9c1a8f022e802
       <ThemedText style={styles.headerText}>
         FREE GUY
       </ThemedText>
