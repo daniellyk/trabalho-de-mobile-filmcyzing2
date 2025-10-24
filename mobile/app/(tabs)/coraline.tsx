@@ -11,7 +11,7 @@ export default function HomeScreen() {
         style={styles.tinyLogo}
         source={require('@/assets/images/coraline.jpg')}
       />
-    
+
       <ThemedView style={styles.titleContainer}>
         <ThemedText type="title"></ThemedText>
       </ThemedView>
@@ -33,13 +33,13 @@ export default function HomeScreen() {
       <ThemedText> Roteiro: Henry Selick.</ThemedText>
       <ThemedText> Duração: 1h 40m.</ThemedText>
       <ThemedText> Orçamento: 60 milhões USD.</ThemedText>
-      <ThemedText/>
+      <ThemedText />
       <ThemedText>                                                      </ThemedText>
       <center> <ThemedText type="subtitle">Sinopse:</ThemedText></center>
       <ThemedText>                                                      </ThemedText>
       <ThemedText> Coraline descobre uma porta para um mundo alternativo onde tudo parece perfeito, pais afetuosos e desejos realizados. Porém todos têm botões nos olhos, e logo percebe que essa realidade paralela esconde intenções sombrias para mantê-la presa.
-      A mensagem principal de Coraline é que um mundo aparentemente perfeito, mas artificial, é inferior à complexidade da vida real, que, apesar de suas imperfeições e frustrações, é o lar de verdadeiras relações familiares e felicidade, que podem ser perdidas ao desejar algo que não se tem.</ThemedText>
-      
+        A mensagem principal de Coraline é que um mundo aparentemente perfeito, mas artificial, é inferior à complexidade da vida real, que, apesar de suas imperfeições e frustrações, é o lar de verdadeiras relações familiares e felicidade, que podem ser perdidas ao desejar algo que não se tem.</ThemedText>
+
     </View>
 
   );
@@ -67,7 +67,7 @@ const styles = StyleSheet.create({
   headerText: {
     fontSize: 32,
     fontWeight: 'bold',
-    color: '#483466',
+    color: '#32327c',
     textAlign: 'center',
     marginTop: 20,
   },
