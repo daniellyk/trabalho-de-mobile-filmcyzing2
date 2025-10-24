@@ -23,6 +23,7 @@ export default function HomeScreen() {
       </ThemedText>
        <ThemedText>                                        </ThemedText>
       <center><ThemedText type="subtitle">Informações Gerais</ThemedText></center>
+      <ThemedText>                                                      </ThemedText>
               <ThemedText>Data de lançamento: 21 de outubro de 2005 (Brasil)</ThemedText>
               <ThemedText>Diretores: Tim Burton, Mike Johnson</ThemedText>
               <ThemedText>Autores: Tim Burton, Carlos Grangel</ThemedText>
@@ -32,6 +33,7 @@ export default function HomeScreen() {
               
               <ThemedText>                                        </ThemedText>
                 <center><ThemedText type="subtitle">Sinopse</ThemedText></center>
+                <ThemedText>                                                    </ThemedText>
                 <ThemedText> As famílias de Victor e Victoria estão arranjando seu casamento. Nervoso com a cerimônia, Victor vai sozinho à floresta para ensaiar seus votos. No entanto, o que ele pensava ser um tronco de árvore na verdade é o braço esquelético de Emily, uma noiva que foi assassinada depois de fugir com seu amor. Convencida que Victor acabara de lhe pedir a mão em casamento, Emily o leva para o mundo dos mortos, mas ele precisa retornar rapidamente antes que Victoria se case com o malvado Lorde Barkis.</ThemedText>
                </View>
   );
@@ -59,7 +61,7 @@ const styles = StyleSheet.create({
   headerText: {
     fontSize: 32, 
     fontWeight: 'bold',
-    color: '#1D1D3D', 
+    color: '#3B5C82', 
     textAlign: 'center', 
     marginTop: 20, 
   },
@@ -72,7 +74,7 @@ const styles = StyleSheet.create({
     position: 'absolute',
   },
   tinyLogo: {
-    width: 50,
-    height: 50,
+    width: 420,
+    height: 220,
   },
 });
