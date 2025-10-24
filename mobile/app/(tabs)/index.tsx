@@ -103,7 +103,7 @@ const styles = StyleSheet.create({
 
   gridImage: {
 
-    width: '50%',
+    width: '55%',
     height: 150,
     borderRadius: 8,
 

@@ -8,7 +8,7 @@ export default function HomeScreen() {
     <View style={styles.container}>
       <Image
         style={styles.tinyLogo}
-        source={require('@/assets/images/Cadaver.jpg')}
+        source={require('@/assets/images/Noivacadaver2.jpg')}
       />
       <ThemedView style={styles.titleContainer}>
         <ThemedText type="title"></ThemedText>
