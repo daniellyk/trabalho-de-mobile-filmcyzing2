@@ -3,10 +3,10 @@ import { ThemedView } from '@/components/themed-view';
 import { Image, ScrollView, StyleSheet, TouchableOpacity, View } from 'react-native';
 
 export default function HomeScreen() {
-  const handleImagePress = (imageName: string) => {
+  function handleImagePress(imageName: string) {
     console.log(`Image pressed: ${imageName}`);
 
-  };
+  }
 
   return (
     <ScrollView style={styles.container}>
@@ -17,7 +17,7 @@ export default function HomeScreen() {
         <ThemedText type="subtitle"></ThemedText>
       </ThemedView>
 
-      <ThemedText style={styles.headerText}> Filmcyzing </ThemedText>
+      <ThemedText style={styles.headerText}> FILMCYZING </ThemedText>
       <View style={styles.gridContainer}>
         <View style={styles.imagePair}>
           <TouchableOpacity onPress={() => handleImagePress('miguel.jpg')}>
