@@ -1,0 +1,17 @@
+{
+    "filmes": [
+      {
+        "id": 1,
+        "title": "Ouija: A Origem do Mal",
+        "posterUrl": "",
+        "releaseDate": "20 de outubro de 2016",
+        "genre": "Terror, drama e suspense",
+        "director": "Mike Flanagan",
+        "duration": "1h 39min",
+        "revenue": "81,7 milhões de dólares",
+        "distribution": "Universal Pictures",
+        "whereToWatch": "Amazon prime, YouTube e Apple TV alugar ou comprar",
+        "synopsis": "Em 1967, uma médium-golpista com suas duas filhas fazem farsas de contatos com o além. Para melhorar a qualidade dos golpes, a mãe decide comprar um tabuleiro Ouija e, numa brincadeira, acaba descobrindo que sua filha caçula Doris tem o dom de falar com espíritos. Ao tentar invocar o espírito do pai, a garotinha acaba atraindo outros espíritos, transformando a tentativa de ganho financeiro num pesadelo de possessão que ameaça a família e exige um exorcismo."
+      }
+    ]
+  }
