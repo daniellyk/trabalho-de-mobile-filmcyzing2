@@ -44,7 +44,7 @@ export default function HomeScreen() {
       <center> <ThemedText type="subtitle">Sinopse</ThemedText></center>
       <ThemedText> A história é contada do ponto de vista de Francis, um jovem que perdeu seu melhor amigo e suspeita que o Dr. Caligari e Cesare estão por trás dos crimes. À medida que Francis investiga, a linha entre a realidade e o delírio começa a se desvanecer, levando o espectador a questionar tudo o que vê na tela.
 
-        O que torna "O Gabinete do Dr. Caligari" único não é apenas o enredo, mas a forma como ele é apresentado. O filme é uma obra-prima do expressionismo alemão, usando cenários distorcidos, ângulos de câmera incomuns e uma estética visual que reflete o estado mental perturbado dos personagens e o terror da história. </ThemedText>
+        O que torna "O Gabinete do Dr. Caligari," único não é apenas o enredo, mas a forma como ele é apresentado. O filme é uma obra-prima do expressionismo alemão, usando cenários distorcidos, ângulos de câmera incomuns e uma estética visual que reflete o estado mental perturbado dos personagens e o terror da história. </ThemedText>
 
     </ScrollView>
 
