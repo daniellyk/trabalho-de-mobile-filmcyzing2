@@ -1,0 +1,18 @@
+{
+    "movies": [
+      {
+        "id": 1,
+        "title": "Pixels",
+        "poster": "",
+        "releaseDate": "23 de julho de 2015 Brasil",
+        "genre": "Ação, comédia e ficção científica",
+        "director": "Chris Columbus",
+        "screenplay": "Patrick Jean, Tim Herlihy, Timothy Dowling e Adam Sandle",
+        "duration": "1 hora 45 minutos",
+        "budget": "US$ 88–129 milhões",
+        "distribution": "Sony Pictures Releasing",
+        "whereToWatch": "HBO, Google play e Apple TV+",
+        "synopsis": "Em busca de contato com seres extraterrestres, a humanidade envia imagens e sons variados sobre sua própria cultura nos mais diversos satélites lançados ao espaço. Após encontrar um desses registros, uma raça alienígena resolve criar monstros digitais inspirados em videogames clássicos dos anos 1980 e tentar conquistar a Terra. Para combatê-los, um grupo de especialistas em jogos da época é convocado e encarregado de derrotar os invasores, salvando assim o planeta."
+      }
+    ]
+  }

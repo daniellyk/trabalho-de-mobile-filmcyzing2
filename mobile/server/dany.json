@@ -1,0 +1,18 @@
+
+{
+    "movies": [
+      {
+        "id": 1,
+        "title": "O Gabinete do Dr. Caligari",
+        "releaseDate": "26 de fevereiro de 1920",
+        "genre": "Horror, Mudo, Terror (Expressionismo Alemão)",
+        "director": "Robert Wiene",
+        "screenwriter": "Hans Janowitz e Carl Mayer",
+        "duration": "Aproximadamente 77 minutos",
+        "revenue": "18.000 USD",
+        "whereToWatch": "Telecine, Amazon Prime",
+        "synopsis": "A história é contada do ponto de vista de Francis, um jovem que perdeu seu melhor amigo e suspeita que o Dr. Caligari e Cesare estão por trás dos crimes. À medida que Francis investiga, a linha entre a realidade e o delírio começa a se desvanecer, levando o espectador a questionar tudo o que vê na tela. O que torna 'O Gabinete do Dr. Caligari' único não é apenas o enredo, mas a forma como ele é apresentado. O filme é uma obra-prima do expressionismo alemão, usando cenários distorcidos, ângulos de câmera incomuns e uma estética visual que reflete o estado mental perturbado dos personagens e o terror da história.",
+        "imageUrl": ""
+      }
+    ]
+  }
