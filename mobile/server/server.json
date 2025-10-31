@@ -1,0 +1,83 @@
+{
+    "postersMiguel": [
+        {
+            "id": 1,
+            "title": "Pixels",
+            "imageUri": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzg3KxE8GIyg5G5E5WXI8FspsMr__0Rn5vcQ&s"
+        },
+        {
+            "id": 2,
+            "title": "Freeguy",
+            "imageUri": "https://br.web.img3.acsta.net/r_1280_720/pictures/21/06/10/20/47/1652456.jpg"
+        },
+        {
+            "id": 3,
+            "title": "Ouija",
+            "imageUri": "https://br.web.img2.acsta.net/r_1280_720/pictures/14/09/19/14/10/176846.jpg"
+        },
+        {
+            "id": 4,
+            "title": "Gabinete Caligari",
+            "imageUri": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQLXGt6jJeisrjQBI45EQIF8AOYkdOPozvAA&s"
+        },
+        {
+            "id": 5,
+            "title": "A Noiva Cadáver",
+            "imageUri": "https://maceioshopping.com/app/uploads/2025/10/20140728.jpg"
+        },
+        {
+            "id": 6,
+            "title": "Coraline",
+            "imageUri": "https://br.web.img3.acsta.net/c_310_420/medias/nmedia/18/87/79/16/19961587.jpg"
+        }
+    ],
+    "moviesDany": [
+        {
+            "id": 1,
+            "title": "O Gabinete do Dr. Caligari",
+            "releaseDate": "26 de fevereiro de 1920",
+            "genre": "Horror, Mudo, Terror (Expressionismo Alemão)",
+            "director": "Robert Wiene",
+            "screenwriter": "Hans Janowitz e Carl Mayer",
+            "duration": "Aproximadamente 77 minutos",
+            "revenue": "18.000 USD",
+            "whereToWatch": "Telecine, Amazon Prime",
+            "synopsis": "A história é contada do ponto de vista de Francis, um jovem que perdeu seu melhor amigo e suspeita que o Dr. Caligari e Cesare estão por trás dos crimes. À medida que Francis investiga, a linha entre a realidade e o delírio começa a se desvanecer, levando o espectador a questionar tudo o que vê na tela. O que torna 'O Gabinete do Dr. Caligari' único não é apenas o enredo, mas a forma como ele é apresentado. O filme é uma obra-prima do expressionismo alemão, usando cenários distorcidos, ângulos de câmera incomuns e uma estética visual que reflete o estado mental perturbado dos personagens e o terror da história.",
+            "imageUrl": ""
+        }
+    ],
+    "filmesLaura": [
+        {
+            "id": 1,
+            "title": "Ouija: A Origem do Mal",
+            "posterUrl": "",
+            "releaseDate": "20 de outubro de 2016",
+            "genre": "Terror, drama e suspense",
+            "director": "Mike Flanagan",
+            "duration": "1h 39min",
+            "revenue": "81,7 milhões de dólares",
+            "distribution": "Universal Pictures",
+            "whereToWatch": "Amazon prime, YouTube e Apple TV alugar ou comprar",
+            "synopsis": "Em 1967, uma médium-golpista com suas duas filhas fazem farsas de contatos com o além. Para melhorar a qualidade dos golpes, a mãe decide comprar um tabuleiro Ouija e, numa brincadeira, acaba descobrindo que sua filha caçula Doris tem o dom de falar com espíritos. Ao tentar invocar o espírito do pai, a garotinha acaba atraindo outros espíritos, transformando a tentativa de ganho financeiro num pesadelo de possessão que ameaça a família e exige um exorcismo."
+        }
+    ],
+    "moviesLuana": [
+        {
+            "id": 1,
+            "title": "CORALINE",
+            "releaseDate": "13 de fevereiro de 2009 (Brasil)",
+            "director": "Henry Selick",
+            "author": "Neil Gaiman",
+            "genres": [
+                "Infantil",
+                "Terror"
+            ],
+            "screenplay": "Henry Selick",
+            "budget": "60 milhões USD",
+            "duration": "1h 40m",
+            "synopsis": "Coraline descobre uma porta para um mundo alternativo onde tudo parece perfeito, pais afetuosos e desejos realizados. Porém todos têm botões nos olhos, e logo percebe que essa realidade paralela esconde intenções sombrias para mantê-la presa.",
+            "message": "A mensagem principal de Coraline é que um mundo aparentemente perfeito, mas artificial, é inferior à complexidade da vida real, que, apesar de suas imperfeições e frustrações, é o lar de verdadeiras relações familiares e felicidade, que podem ser perdidas ao desejar algo que não se tem.",
+            "imageUrl": "https://exemplo.com/coraline-poster.jpg"
+        }
+    ]
+}

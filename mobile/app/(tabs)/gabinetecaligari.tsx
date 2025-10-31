@@ -1,7 +1,7 @@
-import React, { useState, useEffect } from 'react';
-import { Image, ScrollView, StyleSheet, View, ActivityIndicator } from 'react-native';
 import { ThemedText } from '@/components/themed-text';
 import { ThemedView } from '@/components/themed-view';
+import React, { useEffect, useState } from 'react';
+import { ActivityIndicator, Image, ScrollView, StyleSheet, View } from 'react-native';
 
 interface MovieData {
   id: number;
@@ -31,7 +31,7 @@ const GenericDataComponent: React.FC = () => {
       setLoading(true);
       setError(null);
       
-      const response = await fetch('http://localhost:3000/movies');
+      const response = await fetch('http://localhost:3000/moviesDany');
       
       if (!response.ok) {
         throw new Error(`Erro: ${response.status}`);

@@ -1,0 +1,34 @@
+{
+    "posters": [
+        {
+            "id": 1,
+            "title": "Pixels",
+            "imageUri": "@/assets/images/miguel.jpg"
+        },
+        {
+            "id": 2,
+            "title": "Freeguy",
+            "imageUri": "@/assets/images/Chris.jpg"
+        },
+        {
+            "id": 3,
+            "title": "Ouija",
+            "imageUri": "@/assets/images/ouijaorigem.jpeg"
+        },
+        {
+            "id": 4,
+            "title": "Gabinete Caligari",
+            "imageUri": "@/assets/images/capaexpresscabinetcaligari.jpg"
+        },
+        {
+            "id": 5,
+            "title": "A Noiva Cadáver",
+            "imageUri": "@/assets/images/Noiva2.jpg"
+        },
+        {
+            "id": 6,
+            "title": "Coraline",
+            "imageUri": "@/assets/images/images (2).jpg"
+        }
+    ]
+}
