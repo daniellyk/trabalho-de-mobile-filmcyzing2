@@ -28,10 +28,7 @@ export default function HomeScreen() {
 
   const fetchMovieData = async () => {
     try {
-      // Tente estas URLs (altere conforme seu ambiente)
-      const API_URL = 'http://10.0.2.2:3000/movies/1'; // Para Android Emulator
-      // const API_URL = 'http://localhost:3000/movies/1'; // Para iOS Simulator
-      // const API_URL = 'http://192.168.1.100:3000/movies/1'; // Para dispositivo físico (substitua pelo SEU IP)
+      const API_URL = 'http://10.0.2.2:3003/movies/1'; 
 
       const response = await fetch(API_URL);
       
@@ -43,7 +40,6 @@ export default function HomeScreen() {
       setMovieData(data);
     } catch (error) {
       console.log('Erro ao carregar dados da API, usando dados locais:', error);
-      // Em caso de erro, usa dados locais como fallback
       setMovieData({
         id: 1,
         title: "Pixels",
